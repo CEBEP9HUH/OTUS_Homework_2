@@ -2,8 +2,10 @@ language: cpp
 before_script:
 - sudo apt-get install libgtest-dev -y
 script:
+- cd /usr/src/gtest/
 - cmake /usr/src/gtest/
 - cmake --build .
+- cd ..
 - cmake .
 - cmake --build .
 - ctest .
