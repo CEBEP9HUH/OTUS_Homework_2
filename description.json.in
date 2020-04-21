@@ -12,8 +12,8 @@
     },
 
     "files":    [{
-        "includePattern":   "/home/travis/build/CEBEP9HUH/OTUS_Homework_2/ip_filter-@PROJECT_VERSION_PATCH@-Linux.deb",
-        "uploadPattern":    "/ip_filter-@PROJECT_VERSION_PATCH@-Linux.deb",
+        "includePattern":   "/home/travis/build/CEBEP9HUH/OTUS_Homework_2/ip_filter-0.0.@PROJECT_VERSION_PATCH@-Linux.deb",
+        "uploadPattern":    "/ip_filter-0.0.@PROJECT_VERSION_PATCH@-Linux.deb",
         "matrixParams": {
             "deb_distributor": "trusty",
             "deb_component": "main",
