@@ -6,6 +6,7 @@ script:
 - cd gtest
 - cmake /usr/src/gtest/
 - cmake --build .
+- sudo cp *.a /usr/lib/
 - cd ..
 - cmake .
 - cmake --build .
