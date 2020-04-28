@@ -8,8 +8,8 @@ endif()
 
 configure_file(description.json.in description.json)
 
-add_library(ip_filter_lib STATIC ip_filter_lib.cpp)
-add_executable(ip_filter_tests ip_filter_tests.cpp) 
+add_library(ip_filter_lib STATIC libs/ip_filter_lib.cpp)
+add_executable(ip_filter_tests tests/ip_filter_tests.cpp) 
 add_executable(ip_filter ip_filter.cpp)
 
 set_target_properties(ip_filter ip_filter_lib ip_filter_tests PROPERTIES
